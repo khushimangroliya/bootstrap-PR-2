@@ -1,0 +1,358 @@
+:root{
+    --black:#101010;
+    --white:#fff;
+    --gray:#666666;
+    --red:#ea4c23cc;
+    --body:#555555;
+    --main:#ea4c23;
+    --p:#cccccc;
+    --font:Poppins;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family: var(--font);
+}
+.bennar{
+    background-image: url('../img/yoga-banner-1.jpg');
+    height: 100vh;
+}
+.bennar-content{
+     margin-top: 15%;
+     font-weight: bold;
+}
+.bennar-content h3{
+    font-size: 30px;
+    color: var(--white);
+}
+.bennar-content h2{
+    font-size: 64px;
+    color: var(--white);
+    font-weight:bold ;
+}
+.bennar-content span{
+    font-size: 35px;
+    color: var(--white);
+}
+.bennar-content span p{
+    font-size: 35px;
+    color: var(--main);
+    display: inline;
+    padding-left:5px;
+}
+.bennar-content a{
+    width: 250px;
+    font-size: 16PX;
+    color: var(--white);
+    padding:20px 0px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--main);
+}
+.content{
+    width: 100%;
+    padding: 35px;
+    background-color: var(--main);
+}
+.content a{
+    font-size: 20px;
+    color: var(--white);
+}
+.content p{
+    font-size: 15px;
+    color: var(--white);
+}
+.content .btn a{
+    font-size: 16px;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: 1px solid var(--white);
+}
+.content .btn2 a{
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--main);
+    padding: 15px 20px;
+    border-radius: 40px;
+} 
+.about{
+    padding: 30px;
+}
+.about span{
+    font-size: 18px;
+    color: var(--main);
+    font-weight: bold;
+}
+.about h2{
+    font-size: 36px;
+    color: var(--black);
+    font-weight: bold;
+}
+.about p{
+    padding-top:10px;
+    width: 70%;
+    font-size: 16px;
+    color: var(--gray);
+}
+.about .btn{
+    padding: 15px;
+    background-color: var(--main);
+    border-radius: 30px;
+}
+.about a{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+}
+.skill{
+    background-image: url('../img/service0bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.title span{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main);
+}
+.title h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--white);
+}
+.skill-contect span{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--white);
+    padding: 15px 0px;
+}
+.skill-contect p{
+    width: 80%;
+    font-size: 18px;
+    color: var(--p);
+    padding: 15px 0px;
+}
+small{
+    font-size: 16px;
+    color: var(--white);
+}
+.progress .progress-bar{
+    background-color: var(--main);
+}
+.title-bar span{
+    font-size: 18px;
+    color: var(--main);
+    font-weight: bold;
+}
+.title-bar h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--black);
+}
+.img-section img{
+    display: block;
+    width: 100%;
+}
+.img-section{
+   position: relative;
+}
+.hover{
+    position: absolute;
+    width: 95%;
+    height:70px;
+    background-color: var(--main);
+    bottom: 0;
+    line-height: 70px;
+}
+.hover a{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: bold;
+}
+.join{
+    background-image: url('../img/cta.jpg');
+}
+.text h2{
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--white);
+}
+.text div{
+    width: 70%;
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 20px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--white);
+    border-radius: 30px;
+}
+.button a{
+    font-size: 16px;
+    color: var(--main);
+    font-weight: bold;
+}
+.service a{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+.service  img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.service p{
+    width: 77%;
+    padding: 10px 20px 20px 20px;
+    font-size: 16px;
+    color: var(--gray);
+    letter-spacing: 1px;
+}
+.pricing h3{
+    font-size: 20px;
+    color: var(--black);
+    font-weight: bold;
+    padding: 10px;
+}
+.pricing span{
+    font-size: 20px;
+    color: var(--main);
+    font-weight: bold;
+}
+.pricing ul li{
+    border-top: 1px solid rgb(239, 239, 239);
+    font-size: 16px;
+    color: var(--gray);
+    padding: 10px;
+}
+.pricing a{
+    padding: 15px;
+    background-color: var(--main);
+    border-radius: 30px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+}
+.ceo{
+    background-image: url('../img/testbg.jpg');
+    padding: 60px;
+}
+.ceo img{
+    width: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.ceo p{
+    padding: 10px;
+    font-size: 20px;
+    color: var(--white);
+}
+.ceo ul li{
+    font-size: 16px;
+    color: var(--p);
+}
+.card{
+    border: none;
+}
+.card-title a{
+    font-size: 20px;
+    color: var(--black);
+    font-weight: bold;
+    padding-left: 15px;
+}
+.card-body p{
+    font-size: 18px;
+    color: var(--gray);
+}
+.card-body a{
+    font-size: 20px;
+    color: var(--gray);
+}
+.gallary img{
+    padding-top: 70px;
+    width: 110%;
+}
+footer{
+    padding: 30px;
+}
+footer p{
+    font-size: 16px;
+    color: var(--white);
+    padding: 20px;
+}
+footer ul li{
+    font-size: 16px;
+    color: var(--white);
+    padding: 10px;
+}
+footer a{
+    font-size: 16px;
+    color: var(--white);
+}
+footer h3{
+    font-size: 20px;
+    color: var(--main);
+    padding-left: 25px;
+}
+.about-me{
+    background-image: url('../img/inner.jpg');
+    padding: 80px;
+}
+.about-me h1{
+    font-size: 45px;
+    color: var(--white);
+    font-weight: bold;
+}
+.img{
+    width: 100%;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+}
+.class{
+    background-image: url('../img/inner5.jpg');
+    padding: 80px; 
+}
+.class h1{
+    font-size: 45px;
+    color: var(--white);
+    font-weight: bold;
+}
+.info i{
+    padding: 25px;
+    border-radius: 50%;
+    background-color: var(--main);
+    font-size: 20px;
+    color: var(--white);
+}
+.info h3{
+    padding-top: 10px;
+    font-size: 20px;
+    color: var(--black);
+}
+.info a{
+    font-size: 18px;
+    color: var(--gray);
+}
+.bg{
+    background-image: url('../img/contact-bg.jpg');
+}
+form{
+    width: 60%;
+    background-color: var(--white);
+    margin: auto;
+}
+form .btn{
+    background-color: var(--main);
+    color: var(--white);
+}
